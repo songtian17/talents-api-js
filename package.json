@@ -1,0 +1,28 @@
+{
+  "name": "talents-api",
+  "version": "1.0.0",
+  "description": "Talents API made with TypeORM in JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songtian17/talents-api-js.git"
+  },
+  "author": "songtian17",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/songtian17/talents-api-js/issues"
+  },
+  "homepage": "https://github.com/songtian17/talents-api-js#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^7.18.1",
+    "typeorm": "^0.2.22"
+  }
+}
